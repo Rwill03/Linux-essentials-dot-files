@@ -123,3 +123,9 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+# Alias to show the current shell
+alias myshell='echo "You are using: $SHELL"'
+
+# Alias to shorten 'ls -lh' command
+alias ll='ls -lh'

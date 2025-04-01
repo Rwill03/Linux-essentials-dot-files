@@ -20,7 +20,7 @@ cp .profile ~/.profile
 # Set up Neofetch with Purple Colors
 mkdir -p ~/.config/neofetch
 cat <<EOF > ~/.config/neofetch/config.conf
-colors=(5 5 5 5 5 5)
+colors=(9 9 9 9 9 9)
 EOF
 
 echo "✅ Installation complete. Restart your terminal for changes to take effect!"
