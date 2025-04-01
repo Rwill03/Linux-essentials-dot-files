@@ -1,0 +1,14 @@
+#!/bin/bash
+
+function pause() {
+    read -p "$* [ENTER]"
+}
+
+echo "🔹 Updating package lists..."
+sudo apt update
+pause "Press Enter to continue..."
+
+echo "🔹 Installing essential tools..."
+sudo apt install -y git curl nodejs
+pause "Installation complete! Press Enter to exit..."
+
