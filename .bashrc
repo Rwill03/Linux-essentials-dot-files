@@ -19,6 +19,14 @@ shopt -s histappend
 HISTSIZE=1000
 HISTFILESIZE=2000
 
+alias ll='ls -la'         # List files with detailed info
+alias gs='git status'     # Short for 'git status'
+alias ga='git add'        # Short for 'git add'
+alias gc='git commit'     # Short for 'git commit'
+alias gco='git checkout'  # Short for 'git checkout'
+alias gb='git branch'     # Short for 'git branch'
+alias gl='git log'        # Short for 'git log'
+
 # check the window size after each command and, if necessary,
 # update the values of LINES and COLUMNS.
 shopt -s checkwinsize
